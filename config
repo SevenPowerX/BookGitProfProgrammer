@@ -1,0 +1,19 @@
+# GitHub.com
+Host github.com
+   Hostname ssh.github.com
+   Port 443
+   Preferredauthentications publickey
+   IdentityFile ~/.ssh/id_rsa
+
+# GitLab.com
+Host gitlab.com
+   Hostname altssh.gitlab.com
+   Port 443
+   Preferredauthentications publickey
+   IdentityFile ~/.ssh/gitlab_com_rsa
+
+# Private GitLab instance
+#Host gitlab.company.com
+ # Preferredauthentications publickey
+  #IdentityFile ~/.ssh/example_com_rsa
+
